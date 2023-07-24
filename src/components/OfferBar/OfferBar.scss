@@ -2,12 +2,14 @@
     display: flex;
     align-items: center;
     width: 83%;
-    margin: 100px auto;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
     border-radius: 17.712px;
     background: #FFF;
     box-shadow: 0px 4.428116321563721px 17.712465286254883px 0px rgba(158, 158, 158, 0.25);
     padding: 25px;
-    gap: 4px;
+    gap: 12px;
     .carousel__img {
         border-radius: 8px;
     }
@@ -19,7 +21,7 @@
         line-height: normal;
     }
     .offer__hd_txt {
-
+        margin: 10px 0;
     }
     .offer__btn {
         padding: 10px 20px;
@@ -27,5 +29,6 @@
         background: #2659C3;
         border: none;
         color: #fff;
+        margin: 10px 0;
     }
 }

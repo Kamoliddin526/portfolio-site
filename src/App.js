@@ -3,6 +3,8 @@ import HomeBar from "./components/HomeBar/HomeBar";
 import Navbar from "./components/Navbar/Navbar";
 import backgroundImage from './components/HomeBar/images/HomeBackground.jpg'
 import OfferCarousel from "./components/OfferBar/OfferBar";
+import BrowseBar from "./components/BrowseBar/BrowseBar";
+import ConnectBar from "./components/ConnectBar/ConnectBar";
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
         <Navbar />
         <HomeBar />
         <OfferCarousel/>
+        <BrowseBar/>
+        <ConnectBar/>
       </div>
     </div>
   );
