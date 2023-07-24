@@ -1,0 +1,28 @@
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 51px;
+   color: #fff;
+   .main__nav {
+       display: flex;
+       gap: 20px;
+       .nav__item {
+        cursor: pointer;
+        border-bottom: 2px solid #fff;
+        padding: 3px;
+        transition: all 1s;
+       }
+       .nav__item:hover {
+        border-bottom: none;
+       }
+       a {
+        color: #fff;
+       }
+        }
+    }
+    
+
+
+
+

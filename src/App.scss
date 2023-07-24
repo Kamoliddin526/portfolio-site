@@ -1,0 +1,18 @@
+@import './Styles/variables';
+@import './Styles/mixins';
+
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+.wrapper {
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-position: 70% 10%;
+    background-size: cover;
+}
