@@ -11,7 +11,7 @@
         cursor: pointer;
         border-bottom: 2px solid #fff;
         padding: 3px;
-        transition: all 1s;
+        transition: all .3s;
        }
        .nav__item:hover {
         border-bottom: none;
@@ -21,8 +21,57 @@
        }
         }
     }
-    
 
-
-
-
+.media__navbar, .icon__nav {
+    display: none;
+}
+      
+@media screen and (max-width: 550px) {
+.navbar {
+    display: none;
+}
+.main__navbar {
+    color: #fff;
+.icon__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px;
+    align-items: center;
+}
+    .media__navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 20px;
+        color: #fff;
+        .dot__wrapper {
+            background: none;
+            border: none;
+            .dotOne {
+                width: 15px;
+                margin: 2px 0;
+                height: 3.2px;
+                background-color: #fff;
+                transition: all .3s;
+            }
+            .dotSecond {
+                width: 23px;
+                margin: 3px 0;
+                height: 3px;
+                background-color: #fff;
+                transition: all .3s;
+            }
+            .dotThree {
+                width: 18px;
+                margin: 2px 0;
+                height: 2.5px;
+                background-color: #fff;
+                transition: all .3s;
+            }
+        }
+        .dot__wrapper:hover .dotOne, .dot__wrapper:hover  .dotSecond, .dot__wrapper:hover  .dotThree {
+            width: 30px;
+        }
+    }
+}
+}

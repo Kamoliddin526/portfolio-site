@@ -1,24 +1,23 @@
+import React from "react";
+import { Route, Routes } from "react-router";
+
 import "./App.scss";
-import HomeBar from "./components/HomeBar/HomeBar";
-import Navbar from "./components/Navbar/Navbar";
-import backgroundImage from './components/HomeBar/images/HomeBackground.jpg'
-import OfferCarousel from "./components/OfferBar/OfferBar";
-import BrowseBar from "./components/BrowseBar/BrowseBar";
-import ConnectBar from "./components/ConnectBar/ConnectBar";
+import './AppMedia.scss'
 
+import Root from "./Root";
+import Home from "./Pages/Home";
 
-function App() {
+const App = () => {
   return (
-    <div className="app">
-      <div className="wrapper" style={{backgroundImage: `url(${backgroundImage})`}}>
-        <Navbar />
-        <HomeBar />
-        <OfferCarousel/>
-        <BrowseBar/>
-        <ConnectBar/>
-      </div>
+    <div className="container">
+
+    
+      <Routes>
+        <Route  path="/" element={<Home/>} />
+        <Route path="/page_2" element={<Root />} />
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;
