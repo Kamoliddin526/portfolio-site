@@ -1,7 +1,7 @@
 import React from "react";
 import { HomeFilled } from "@ant-design/icons";
 import { Link } from "react-router-dom";
-import "../AppMedia.scss";
+import "../Media.scss";
 
 const FooterMedia = () => {
   return (

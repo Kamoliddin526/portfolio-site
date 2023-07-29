@@ -616,7 +616,7 @@
 
 }
 
-.Support {
+.TravelFooterBar {
     width: 100%;
     height: 318.82px;
     display: flex;
@@ -624,10 +624,9 @@
     align-items: start;
     flex-wrap: wrap;
     background: #141414;
-    padding: 70px 100px;
+    padding: 50px 100px;
     color: white;
     padding-right: 0;
-
     .logo {
 
         h1 {
@@ -641,7 +640,7 @@
         }
     }
 
-    .support {
+    .links {
         width: 80%;
         display: flex;
         justify-content: space-evenly;
@@ -666,7 +665,8 @@
     }
 
     .social {
-        width: 49%;
+        width: 62%;
+        margin-left: 200px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -683,7 +683,7 @@
 
         p {
             font-family: Netflix;
-            font-size: 12px;
+            font-size: 15px;
             font-weight: 300;
             line-height: 16px;
             text-align: left;
@@ -693,6 +693,7 @@
         .socials {
             display: flex;
             gap: 20px;
+            margin-bottom: 40px;
         }
     }
 

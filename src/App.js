@@ -2,18 +2,16 @@ import React from "react";
 import { Route, Routes } from "react-router";
 
 import "./App.scss";
-import './AppMedia.scss'
+import "./Media.scss";
 
-import Root from "./Root";
-import Home from "./Pages/Home";
+import Root from "./Main";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <div className="container">
-
-    
       <Routes>
-        <Route  path="/" element={<Home/>} />
+        <Route path="/" element={<Home />} />
         <Route path="/page_2" element={<Root />} />
       </Routes>
     </div>

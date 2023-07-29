@@ -26,11 +26,10 @@
 
         .whole {
             width: 90%;
-            font-size: 35px;
+            font-size: 37px;
             line-height: normal;
             padding-left: 23px;
             margin: 15px 0;
-            border: 1px solid lime;
 
         }
 
@@ -164,23 +163,22 @@
     .vacation1 {
         width: 95%;
         height: auto;
-
         .h1 {
             color: #000;
-            // padding-left: 15px;
-            font-size: 24px;
+            font-size: 28px;
         }
 
         .card {
             width: 99%;
-            margin: 20px auto;
+            margin: 0 auto;
 
             img {
                 width: 99%;
             }
 
             .cardTitle {
-                bottom: 15px;
+                bottom: 10px;
+                font-size: 22px;
             }
         }
     }
@@ -202,12 +200,12 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        margin: auto;
+        margin: 20px auto;
         justify-content: center;
         align-items: start;
 
         h1 {
-            font-size: 24px;
+            font-size: 28px;
         }
 
         .browse-card {
@@ -236,13 +234,13 @@
 
         h1 {
             width: 100%;
-            font-size: 24px;
+            font-size: 30px;
             line-height: normal;
         }
 
         p {
             width: 100%;
-            font-size: 19px;
+            font-size: 18px;
             line-height: normal;
         }
     }
@@ -275,15 +273,20 @@
         display: none;
     }
 
-    .Support {
+    .TravelFooterBar {
         flex-direction: column;
         gap: 30px;
         justify-content: center;
         align-items: center;
         height: auto;
         padding: 0;
+        .logo {
+            h1 {
+                padding: 8px 0;
+            }
+        }
 
-        .support {
+        .links {
             width: 100%;
             justify-content: center;
             align-items: start;
@@ -291,18 +294,26 @@
 
             .help {
                 width: 45%;
-                gap: 9px;
-                justify-content: start;
-                align-items: start;
+                gap: 16px;
+                justify-content: center;
             }
         }
 
         .social {
             width: 100%;
+            margin: 0;
+            padding: 0;
             flex-direction: column;
             justify-content: center;
             align-items: start;
             gap: 10px;
+            .helmet {
+                margin-left: 9px;
+            }
+            .social__link {
+                padding-bottom: 10px;
+                margin-left: 9px;
+            }
         }
     }
 
